@@ -12,7 +12,4 @@ What I would like to plus:
 * JavaScript
 * SQL
 * PHP
-
-
-
---- 
+---
