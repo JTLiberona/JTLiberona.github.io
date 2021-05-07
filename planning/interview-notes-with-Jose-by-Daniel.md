@@ -111,6 +111,9 @@ In this follow up interview you will present to your partner a summary of your f
 
 ### Notes
 
+- page is successful, if the employer's attention is grabbed.
+- it is mainly for those looking for web developers.
+
 ### Summary
 
 [TOP](#steps)
@@ -125,9 +128,25 @@ Take some time to consolidate & summarize what you learned in the previous two i
 
 <!-- What exactly does your partner need from their home page? Are they looking for collaborators? A job?Learning opportunities? Or something you never expected? -->
 
+- for getting a job
+- prefers remote
+- to have more independence and manage own time
+
 ### Insights
 
 <!-- New learnings about your partner to use in your design -->
+- would like to have his photo
+- buttons with unusual shapes
+- dynamic content
+- 3 projects for now
+- no shapes, vectors 
+- use CSS hover
+- no newsletter subscription
+- no login
+- use IG/FB/WA/Email icons for getting in touch
+- pre-formatted email subject
+- must-have: coding skills/languages
+- sections: about me, quote generator (Dune + inspirational, italic font), contact (fixed on the side), highlighted projects
 
 [TOP](#steps)
 
@@ -153,7 +172,9 @@ A useful format:
 
 ## 5. Open-Ended Ideation
 
-Sketch up a few wireframes for your partner's home page with no regard for your their programming ability, time constraints, technical constraints, or any other practical considerations. How are they different? How does each one serve your partner differently?
+
+Sketch up a few wireframes for your partner's home page with no regard for their programming ability, time constraints, technical constraints, or any other practical considerations. How are they different? How does each one serve your partner differently?
+
 
 - [wireframe name]()
 - ...
@@ -184,7 +205,9 @@ With your partner, come up with a Backlog and Wireframe for their Home page
 
 ## 8. Design
 
-Propose an Atomic Design for your partner's home page. This could include a color palate, button designs, icons, ...
+
+Propose an Atomic Design for your partner's home page. This could include a color palette, button designs, icons, ...
+
 
 [TOP](#steps)
 
