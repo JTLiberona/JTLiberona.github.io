@@ -127,6 +127,7 @@ Take some time to consolidate & summarize what you learned in the previous two i
 ### Needs
 
 <!-- What exactly does your partner need from their home page? Are they looking for collaborators? A job?Learning opportunities? Or something you never expected? -->
+
 - for getting a job
 - prefers remote
 - to have more independence and manage own time
@@ -171,10 +172,13 @@ A useful format:
 
 ## 5. Open-Ended Ideation
 
+
 Sketch up a few wireframes for your partner's home page with no regard for their programming ability, time constraints, technical constraints, or any other practical considerations. How are they different? How does each one serve your partner differently?
+
 
 - [wireframe1](planning/../wireframe1.jpg)
 - [wireframe2](planning/../wireframe2.jpg)
+
 
 
 [TOP](#steps)
@@ -225,7 +229,9 @@ With your partner, come up with a Backlog and Wireframe for their Home page
 
 ## 8. Design
 
+
 Propose an Atomic Design for your partner's home page. This could include a color palette, button designs, icons, ...
+
 
 [TOP](#steps)
 
