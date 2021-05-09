@@ -176,8 +176,10 @@ A useful format:
 Sketch up a few wireframes for your partner's home page with no regard for their programming ability, time constraints, technical constraints, or any other practical considerations. How are they different? How does each one serve your partner differently?
 
 
-- [wireframe name]()
-- ...
+- [wireframe1](planning/../wireframe1.jpg)
+- [wireframe2](planning/../wireframe2.jpg)
+
+
 
 [TOP](#steps)
 
@@ -188,6 +190,10 @@ Sketch up a few wireframes for your partner's home page with no regard for their
 Discuss your ideas with your partner. lots of `why?`.
 
 ### Notes
+
+- likes the 1st more
+- has no menu at the moment, but its fine
+- menu could have anchor tags
 
 ### Summary
 
@@ -200,6 +206,24 @@ Discuss your ideas with your partner. lots of `why?`.
 With your partner, come up with a Backlog and Wireframe for their Home page
 
 [TOP](#steps)
+
+- must have
+- should have
+- could have
+
+- everything on it is must-have
+- should-have is more related to design details, experience
+- menu could be dynamic, auto-hides
+- translucent background, smooth, cyan image, vector mountain shape
+- h1 dark green, p lighter brown
+- justify p text
+- feathered images
+- circular about photo
+- social media icons inside image circle on desktop
+- FB/LI/Email in auto giding footer on mobile
+- mobile version picture first
+- sliding in hamburger menu
+- project links to live version
 
 ---
 
