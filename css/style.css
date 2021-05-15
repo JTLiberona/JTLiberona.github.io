@@ -1,50 +1,238 @@
 /* ACÁ INDICAMOS LA CONFIGURACIÓN DEL SITIO WEB */
 
+/* root config*/
+:root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #423e37;
+  font-family: "Open sans", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
 a:link {
-  color: blue; /* alink es el color de links activos */
+  color: #e3b23c;
+}
+img {
+  max-width: "100%";
+  height: "auto";
 }
 
-a:visited {
-  color: orange; /* vlink es el color de los links visitados */
+h2 {
+  text-decoration-color: green;
 }
 
+p {
+  color: #423e37;
+}
+
+/* BODY */
+body {
+  overflow: scroll;
+  font-family: "Open sans", sans-serif;
+  line-height: 1.6;
+}
+
+/* HEADER*/
 .header {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 90px;
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 1400px;
 }
 
-.body {
-  background-color: black; /* bgcolor indica el color de fondo del website y background indica la imágen que queremos de fondo */
-  color: white; /* text indica el color del texto de la página */
-  margin-left: 10px; /* acá indicamos los márgenes que queremos para el cuerpo de la página */
+.ico {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  max-height: 300px;
   margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  padding-top: 5px;
 }
 
-p.leyenda {
-  text-align: center;
-  font-size: small;
+.ico ul {
+  padding-left: 40px;
 }
 
-img.nebulosa {
-  align-items: center;
-  border: 0px;
-  width: 100px;
+.ico li {
+  float: left;
+  justify-content: space-between;
+}
+
+.ico img {
+  padding: 10px;
+  margin: 10px;
+  max-width: 46px;
+  max-height: 46px;
+}
+
+div .decoration {
+  text-align: right;
+  vertical-align: middle;
+  height: 60px;
+}
+
+.decoration button {
   height: 50px;
+  max-height: 50px;
+  width: 80px;
+  max-width: 100%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #1e6115;
+  color: #acc4a9;
+  border-radius: 25%;
+  border-style: none;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
-p.p1 {
-  text-align: left;
-  font-size: small;
+button:hover {
+  background: transparent;
+  color: white;
+  opacity: 0.5;
 }
 
-p.formVis {
+/* SECTION - ABOUT */
+section .about-me {
+  display: flex;
+  max-height: 500px;
+  max-width: 1400px;
+}
+
+/* Container */
+.container-about {
+  display: flex;
+  overflow: auto;
+  margin: auto;
+  padding: 40px;
+  height: 500px;
+  max-width: 1400px;
+  align-content: center;
+}
+
+.flex {
+  display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: space-between;
 }
 
-img.wallpaper {
+/* Left Container */
+.about-left {
+  display: flex;
+  width: 400px;
+  max-width: 400px;
+  align-items: ;
+}
+
+/* Avatar picture*/
+.avatar-img {
+  max-height: 300px;
+  max-height: 300px;
+  border-radius: 150%;
+  box-shadow: 2px #000;
+  margin-left: 45px;
+}
+
+/* Right Container*/
+.about-right {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: right;
+  vertical-align: middle;
+
+  height: 400px;
+  width: 700px;
+  margin-left: 200px;
+}
+
+/* Paragraph */
+
+.p-about {
+  width: 600px;
+  text-align: justify;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+/* h2 About*/
+
+.title-about {
+  display: flex;
+  vertical-align: top;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  padding-top: 10px;
+  width: 50px;
+}
+
+/* BANNER */
+.mid-banner {
+  max-width: 1400px;
+  margin: auto;
+  box-shadow: 10px green;
+}
+
+.container-banner {
+}
+
+.img-banner {
+}
+
+/* RECENT PROJECTS*/
+
+.section-projects {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 400px;
+  width: 1400px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.projects-h2 {
+  text-transform: uppercase;
+  text-align-last: center;
+  text-decoration-line: underline;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  box-shadow: 0px 0px 10px 0px blanchedalmond; /* Anade sombra a la imagen */
-  width: 100px;
+}
+
+.project-1,
+.project-2,
+.project-3 {
+  justify-content: center;
+  text-align-last: center;
+}
+
+.projects-container img {
+  max-height: 150px;
+  border-radius: 85%;
+}
+
+.projects-container img:hover {
+  box-shadow: 10px black;
+}
+
+/* HOVER */
+
+.project-1-img,
+.project-2-img,
+.project-3-img {
 }
