@@ -1,7 +1,7 @@
 /* ACÁ INDICAMOS LA CONFIGURACIÓN DEL SITIO WEB */
 
 /* root config*/
-:root {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -101,8 +101,9 @@ div .decoration {
   justify-content: space-between;
 }
 
-button:hover {
-  background: transparent;
+.decoration button:hover {
+  cursor: pointer;
+  background: brown;
   color: white;
   opacity: 0.5;
 }
@@ -199,26 +200,33 @@ section .about-me {
 /* RECENT PROJECTS*/
 
 .section-projects {
-  overflow: scroll;
-  display: flex;
+  /* overflow: scroll; */
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-content: center; */
   height: 400px;
-  width: 1400px;
+  width: 100%;
   max-width: 1400px;
-  margin: auto;
+  /* margin: 0 auto; */
 }
 
 .projects-h2 {
+  /* display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1400px; */
   text-transform: uppercase;
-  text-align-last: center;
+  text-align: center;
+  transform: translateX(1.3%);
   text-decoration-line: underline;
+  margin-bottom: 20px;
 }
 
 .projects-container {
   display: flex;
   flex-direction: row;
+  justify-items: center;
   justify-content: space-around;
   align-items: center;
 }
@@ -227,7 +235,7 @@ section .about-me {
 .project-2,
 .project-3 {
   justify-content: center;
-  text-align-last: center;
+  text-align: center;
 }
 
 .projects-container img {
