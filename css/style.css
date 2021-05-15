@@ -73,6 +73,13 @@ body {
   max-height: 46px;
 }
 
+.h1-title h1 {
+  display: flex;
+  margin: 0px;
+  font-weight: 1000;
+  font-size: 50px;
+}
+
 div .decoration {
   text-align: right;
   vertical-align: middle;
@@ -176,15 +183,17 @@ section .about-me {
 
 /* BANNER */
 .mid-banner {
-  max-width: 1400px;
+  max-width: 100%;
   margin: auto;
   box-shadow: 10px green;
 }
 
 .container-banner {
+  max-width: 100%;
 }
 
 .img-banner {
+  max-width: 100%;
 }
 
 /* RECENT PROJECTS*/
